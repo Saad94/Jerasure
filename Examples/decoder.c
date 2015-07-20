@@ -177,7 +177,7 @@ int main (int argc, char **argv) {
 		blocksize = buffersize/k;
 	}
 
-	sprintf(temp, "%d", k);
+	sprintf(temp, "%d", k+m);
 	md = strlen(temp);
 	gettimeofday(&t3, &tz);
 

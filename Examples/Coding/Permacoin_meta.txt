@@ -1,0 +1,6 @@
+Permacoin.pdf
+601365
+587 587 16 32 601365
+LC_PAPER=de_CH.UTF-8
+3
+1

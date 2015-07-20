@@ -295,7 +295,7 @@ int main (int argc, char **argv) {
 	
 	/* Allocate for full file name */
 	fname = (char*)malloc(sizeof(char)*(strlen(argv[1])+strlen(curdir)+10));
-	sprintf(temp, "%d", k);
+	sprintf(temp, "%d", k+m);
 	md = strlen(temp);
 	
 	/* Allocate data and coding */
